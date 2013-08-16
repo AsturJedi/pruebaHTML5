@@ -52,12 +52,13 @@
 		</details>
 		
 		<h2 contenteditable> Editable </h2>
-		<form method="post"		action="http://ejemplo.com/procesa">
+		<form method="post"		action="">
 			<label>Nombre: <input type=password name="cliente" placeholder="Tu Nombre"></label><br>
 			<label>Correo electrónico: <input name="correo"></label><br>
 			<label>Fecha de nacimiento: <input type=date name=fechaNacimiento></label><br>
 			<label>Cuánto mola la página ?? <input type=range name=puntos min=1 max=10></label><br>
-			<button>Enviar</button>
+			<button type="button" onclick="pulsado(this)" id="boton"> Enviar!! </button>
+			<!-- <button>Enviar</button>  -->
 		</form>
 		
 		<footer>
