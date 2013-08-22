@@ -1,65 +1,64 @@
 <html>
 	<head>
-		<title> Curso de Verano HTML5		</title>
+		<title> Página Web del Curso de Verano HTML5		</title>
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="javascript/codigo.js">		</script>
 	</head>
 	
 	<body>
-	    <h1> Pruebas Etiquetas </h1>
-		<div id="v"> Hola		</div>
-		<div onclick="saluda(this)" id="a" > Hola		</div>
-		<div id="v"> Hola		</div>
-		<h2> Sección 2 </h2>
-		<div id="v" class="saludo"> Hola		</div>
-		<div class="saludo"> Hola	<span>Pepe </span>	</div>
-		<div> Bienvenidos al Curso <span> HTML5	</span>	</div>
+	
+	
+	    <h1> Restaurante Casa Adela </h1>
 		
-		<!-- Esto es un comentario -->
+		<div onclick="saluda(this)" id="saludo" > Bienvenidos </div>
+			
+		<div class="Dias">
+				<h2>Seleccionar el día de reserva:</h2>
+				<p class="fecha"><label>Fecha de reserva: <input type=date name=fechaReserva></label></p>
+				
+			</div>			
+			
+		<div id="Comedores">
+						
+			<h2>Seleccionar el comedor:</h2>
+			
+			<div class="tipoComedor">
+				<h3>Comedor Principal</h3>
+				<p class="foto"><img src="link.jpg"></img></p>
+				<p class="descripción">Comedor en la estancia principal.</p>
+				<p class="precio"><span>25</span>€</p>
+			</div>
+			
+			<div class="tipoComedor">
+				<h3>Terraza</h3>
+				<p class="foto"><img src="link.jpg"></img></p>
+				<p class="descripción">Comedor al aire libre.</p>
+				<p class="precio"><span>30</span>€</p>
+			</div>
+			
+			<div class="tipoComedor">
+				<h3>Hórreo</h3>
+				<p class="foto"><img src="link.jpg"></img></p>
+				<p class="descripción">Comedor situado bajo el hórreo.</p>
+				<p class="precio"><span>40</span>€</p>
+			</div>
+			
+			
+			
+		</div>	
+			
+		<!-- Esto es un comentario 
 		
+		<div><p class="boton">Formalizar Reserva</p></div>
+			
 		<h3> Imagen del día </h3>
 		<img src="link.jpg" 
 			alt="Imágen de Link héroe del juego Legend of Zelda"
-			title="Imágen de Link héroe del juego Legend of Zelda"> 
+			title="Imágen de Link héroe del juego Legend of Zelda"> -->
 			<!-- No es necesario cerrar con </img>  -->
-			
-			
-		<h2> Lista de Asistentes </h2>
-		<ol> 
-			<li>Arturo</li>
-			<li>Paula</li>
-			<li>Alex</li>
-		</ol>
 		
-		<h2> Glosario </h2>
-		<dl>
-			<dt>HTML5</dt>
-			<dd>Es una recomendación del W3C</dd>
-			<dt>XML</dt>
-			<dd>Es un lenguaje de intercambio</dd>
-			<dt>W3C</dt>
-			<dd>Es un consorcio de estandarización</dd>
-		</dl>
-		
-		<h2> Campeonato </h2>
-		<details>
-		<summary>Lista de partidos</summary>
-		<ul>
-			<li>Miércoles, Arturo - Diego</li>
-			<li>Jueves, Paula - Alex</li>
-			<li> <mark>Viernes</mark>, Finalista 1 - Finalista 2</li>	
-		</ul>
-		</details>
-		
-		<h2 contenteditable> Editable </h2>
-		<form method="post"		action="">
-			<label>Nombre: <input type=password name="cliente" placeholder="Tu Nombre"></label><br>
-			<label>Correo electrónico: <input name="correo"></label><br>
-			<label>Fecha de nacimiento: <input type=date name=fechaNacimiento></label><br>
-			<label>Cuánto mola la página ?? <input type=range name=puntos min=1 max=10></label><br>
-			<button type="button" onclick="pulsado(this)" id="boton"> Enviar!! </button>
-			<!-- <button>Enviar</button>  -->
-		</form>
+
+		<!-- <button>Enviar</button>  -->
 		
 		<footer>
 			© 2013 Web AsturJedi, todos los derechos reservados.

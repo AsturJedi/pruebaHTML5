@@ -1,7 +1,7 @@
 
 
 function saluda(element){	
-	element.innerHTML="Qué tal estáis pasándolo?";
+	element.innerHTML="Bienvenidos al Restaurante";
 	element.style.fontSize="3em";
 }
 			

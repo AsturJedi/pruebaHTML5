@@ -1,7 +1,82 @@
 
-			div#v {color: blue;}
-			span {color: red;
-					font-size: 3em;}
-			div.saludo {background: green;}
-			 
-			body {background: cyan;}
+	
+div.saludo {
+	background: green;
+	
+}
+
+body {
+	background: cyan;
+}
+
+
+.boton{
+	text-align: center;
+	border-radius: 5px;
+	border: solid 1px #888;
+	width: 300px;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: 0 0 15px #e0e0e0;
+}
+
+.boton:hover{
+	background: #e0e0e0;
+	cursor: pointer;
+}
+			
+			
+#Comedores{
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#Comedores h2{
+	text-align: center;
+}
+
+.tipoComedor{
+	float: left;
+	border: solid 2px #888;
+	width: 260px;
+	height: 230px;
+	margin: 14px;
+	padding: 20px;
+	text-align: center;
+}
+
+#Comedores .tipoComedor:hover{
+	background: #e0e0e0;
+	cursor: pointer;
+}
+
+#Comedores .tipoComedor.selected{
+	background: #F2D479;
+}
+
+#Comedores .tipoComedor h3{
+	font-size: 20px;
+}
+
+.tipoComedor .precio{
+	font-size: 25px;
+}
+
+.tipoComedor .precio span{
+	font-weight: bold;
+}
+
+.tipoComedor .foto img{
+	height: 150px;
+	border: solid 1px #e0e0e0;
+	box-shadow: 0 0 15px #e0e0e0;
+}
+
+
+footer{
+	margin-bottom: 1em;
+	border-top: solid 1px #fff;
+	text-align: center;
+}
