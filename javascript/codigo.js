@@ -1,11 +1,11 @@
 
 
 function saluda(element){	
-	element.innerHTML="Bienvenidos al Restaurante";
-	element.style.fontSize="3em";
+	element.innerHTML="Bienvenidos al Restaurante Casa Adela";
+	element.style.fontSize="1em";
 }
 			
 function pulsado(elemento) {
- alert(" Formulario Enviado ");
+ alert(" Reserva Enviada ");
  
 }

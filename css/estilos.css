@@ -1,5 +1,4 @@
 
-	
 div.saludo {
 	background: green;
 	
@@ -9,6 +8,9 @@ body {
 	background: cyan;
 }
 
+h1{
+	text-align: center;
+}
 
 .boton{
 	text-align: center;
@@ -24,11 +26,14 @@ body {
 	background: #e0e0e0;
 	cursor: pointer;
 }
-			
+
+.clearboth{
+	clear: both;
+}			
 			
 #Comedores{
 	width: 1000px;
-	height: 600px;
+	height: 420px;
 	margin: auto;
 	margin-bottom: 20px;
 }
@@ -74,6 +79,24 @@ body {
 	box-shadow: 0 0 15px #e0e0e0;
 }
 
+
+#Reservas{
+	width: 1000px;
+	height: 250px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#Contacto{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+a.sub{
+text-decoration: underline;
+}
 
 footer{
 	margin-bottom: 1em;
