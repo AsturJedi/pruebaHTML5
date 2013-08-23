@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> Página Web del Curso de Verano HTML5		</title>
+		<title> Página Web del Curso de Verano HTML5 </title>
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="javascript/codigo.js"></script>
 	</head>
@@ -8,35 +8,42 @@
 	<body>
 	
 	    <h1> Restaurante Casa Adela </h1>
-		
-		<div onclick="saluda(this)" id="saludo" alt="Texto de Bienvenida al Restaurante"> Bienvenidos </div>
-				
-			
+						
 		<div id="Comedores">
 						
 			<h2>Comedores Disponibles para Eventos:</h2>
 			
 			<div class="tipoComedor">
 				<h3>Comedor Principal</h3>
-				<p class="foto"><img src="http://www.restaurantecasaadela.com/imgs/comedor/comedor_05_g.jpg" alt="Imágen del comedor principal."></img></p>
+				<p class="foto"><img src="imags/comedor_05_g.jpg" alt="Imágen del comedor principal."></img></p> <!--src="http://www.restaurantecasaadela.com/imgs/comedor/comedor_05_g.jpg"-->
 				<p class="descripción">Comedor en la estancia principal.</p>
 				<p class="precio"><span>25</span>€ /Pers.</p>
 			</div>
 			
 			<div class="tipoComedor">
 				<h3>Terraza</h3>
-				<p class="foto"><img src="http://www.restaurantecasaadela.com/imgs/terraza/terraza_07_g.jpg" alt="Imágen de la terraza."></img></p>
+				<p class="foto"><img src="imags/terraza_07_g.jpg" alt="Imágen de la terraza."></img></p> <!--src="http://www.restaurantecasaadela.com/imgs/terraza/terraza_07_g.jpg"-->
 				<p class="descripción">Comedor al aire libre.</p>
 				<p class="precio"><span>30</span>€ /Pers.</p>
 			</div>
 			
 			<div class="tipoComedor">
 				<h3>Hórreo</h3>
-				<p class="foto"><img src="http://www.restaurantecasaadela.com/imgs/terraza/terraza_06_g.jpg" alt="Imágen del hórreo."></img></p>
+				<p class="foto"><img src="imags/terraza_06_g.jpg" alt="Imágen del hórreo."></img></p> <!--src="http://www.restaurantecasaadela.com/imgs/terraza/terraza_06_g.jpg"-->
 				<p class="descripción">Comedor situado bajo el hórreo.</p>
 				<p class="precio"><span>40</span>€ /Pers.</p>
 			</div>
 				
+			<div id="saludo">
+				<br><p>En nuestros comedores encontrará el lugar perfecto para sus reuniones de trabajo, 
+						eventos familiares o un pequeño rincón donde disfrutar de una variada y exquisita oferta gastronómica, 
+						donde está representada la cocina tradicional asturiana, nuestros postres caseros y una bodega perfectamente seleccionada."
+					</p>
+			</div>
+			
+			<div onclick="saluda(this)" id="saludo" alt="Texto de Bienvenida al Restaurante"> Bienvenid@s </div>
+			
+					
 		</div>	
 		
 		
@@ -44,18 +51,16 @@
 			
 			<h2>Seleccionar Reserva:</h2>
 			
-			<form method="post"		action="index.html">
+			<form method="post"	 id="resv"	action="">
 				<label>Nombre: <input name=cliente placeholder="Tu Nombre" required></label><br>
-				<label>Correo Electrónico: <input type=email name=correo placeholder="correo@propio.es" required></label><br>
-				<label>Teléfono de Contacto: <input type=tel name=telf placeholder="6********" required></label><br>
-				<label>Fecha de Reserva: <input type=date name=fechaReserva required></label>
-							
+				<label>Correo Electrónico: <input type=email name=correo placeholder="correo@propio.es"></label><br>
+				<label>Teléfono de Contacto: <input type=tel name=telf placeholder="6******** ó 9********" required></label><br>
+				<label>Numero de Asistentes: <input type=number name=asistentes min=1 máx=100></label><br>
+				<label>Fecha de Reserva: <input type=date name=fechaReserva required></label><br>			
 			</form>
 				
-			<div>
-				
+			<div>				
 				<p class="boton" onclick="pulsado(this)" >Formalizar Reserva</p>
-			
 			</div>			
 	
 		</div>	
@@ -66,12 +71,12 @@
 			<h2> Información de Contacto:</h2>
 			
 			<p>
-				<br>Email: <a class="sub" href="mailto:adela@restaurantecasaadela.com" target="_blank">adela@restaurantecasaadela.com</a><br>
-				<br>Teléfono: <a class="sub"><mark>985 69 73 92</mark></a><br>
+				Email: <a class="sub" href="mailto:adela@restaurantecasaadela.com" target="_blank">adela@restaurantecasaadela.com</a><br>
+				<br>Teléfono: <a class="sub">985 69 73 92</a><br>
 			</p>
 			
 			<details>
-				<summary>Dirección:</summary>
+				<summary>Dirección Postal:</summary>
 				<ul>
 					<li>C/ Las Escuelas s/n. </li>
 					<li>CP: 33934</li>
@@ -85,21 +90,14 @@
 		
 		<!-- Esto es un comentario 
 		
-		<div><p class="boton">Formalizar Reserva</p></div>
-		<div><button type="button" onclick="pulsado(this)" id="boton" class="boton"> Reserva Enviada </button></div>
-		<h3> Imagen del día </h3>
-		<img src="link.jpg" 
-			alt="Imágen de Link héroe del juego Legend of Zelda"
-			title="Imágen de Link héroe del juego Legend of Zelda"> -->
-			<!-- No es necesario cerrar con </img>  -->
-		
+			
+		-->
 
-		<!-- <button>Enviar</button>  -->
 		
 		<footer>
-		
-			© 2013 Web AsturJedi, todos los derechos reservados.
-			
+			<div>
+				<p> © 2013 Web AsturJedi, todos los derechos reservados.</p>
+			</div>
 		</footer>
 		
 	</body>
