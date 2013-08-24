@@ -4,7 +4,7 @@
 }
 
 body {
-	background: #0ACF2C/* #20F211; /*cyan*/
+	background: #0ACF2C;/* #20F211; /*cyan*/
 	
 }
 
@@ -35,11 +35,10 @@ h1{
 	background: #e0e0e0;
 	cursor: pointer;
 }
-		
 			
 #Comedores{
 	width: 1000px;
-	height: 500px;
+	height: 510px;
 	margin: auto;
 	margin-bottom: 20px;
 }
@@ -85,17 +84,31 @@ h1{
 	box-shadow: 0 0 15px #e0e0e0;
 }
 
-
 #Reservas{
 	width: 1000px;
-	height: 240px;
+	height: 290px;
 	margin: auto;
 	margin-bottom: 20px;
+}
+#Reservas .boton{
+	background: #0ACF2C;
+	text-align: center;
+	border-radius: 5px;
+	border: solid 1px #888;
+	width: 300px;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: 0 0 15px #e0e0e0;
+}
+
+#Reservas .boton:hover{
+	background: #e0e0e0;
+	cursor: pointer;
 }
 
 #Contacto{
 	width: 1000px;
-	height: 320px;
+	height: 300px;
 	margin: auto;
 	margin-bottom: 20px;
 }
