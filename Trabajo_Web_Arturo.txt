@@ -12,7 +12,8 @@ Se han utilizado diversos tipos de tecnologías, tales como HTML5, CSS, JavaScrip
 		Además de un texto explicativo y una bienvenida que es interactiva, se amplia al pulsar.
 	- Otra sección para hacer una reserva mediante un formulario, en el que se ha puesto 
 		pre-relleno de cara a que el usuario sepa lo que debe poner y un botón para enviar
-		que mediante una función javascript devuelve un mensaje.
+		que mediante una función javascript devuelve un mensaje con los campos obligatorios
+		a la hora de hacer una posible reserva.
 	- También se ha añadido una sección de contacto con las vías para comunicarse con el 
 		restaurante, correo electrónico de manera que al pulsar se puede enviar, 
 		un teléfono, un enlace con goolge maps (no me gustaba incluir el minimapa directamente,
@@ -41,7 +42,7 @@ y en explorer fallan algunas cosas más, pero por lo general funciona bastante bi
 
 Algunos problemas encontrados: 
  
-- No entiendo por qué me da problemas el añadir el charset cuando en el archivo de los microdatos hace que 
+- No entiendo por qué me da problemas el añadir el charset-uft8 en el "index" cuando en el archivo de los microdatos hace que 
 	funcione el texto bien en lugar de salir mal los acentos. Aquí añadir el charset hace que salgan mal.
 
 - La función para rellenar el mensaje de javascript no consigo que haga lo que pretendo, miré por internet ejemplos
