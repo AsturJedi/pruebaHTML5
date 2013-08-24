@@ -1,13 +1,17 @@
 
-
+*{
+	font-family: Times New Roman, Times;
+}
 
 body {
-	background: cyan;
+	background: #0ACF2C/* #20F211; /*cyan*/
+	
 }
 
 h1{
 	text-align: center;
 	text-decoration: underline;
+	font-size: 3em;
 }
 
 .saludo {
@@ -35,7 +39,7 @@ h1{
 			
 #Comedores{
 	width: 1000px;
-	height: 490px;
+	height: 500px;
 	margin: auto;
 	margin-bottom: 20px;
 }
@@ -96,7 +100,19 @@ h1{
 	margin-bottom: 20px;
 }
 
+#Receta{
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+
 a.sub{
+	text-decoration: underline;	
+}
+
+.redir{
 	text-decoration: underline;
 }
 

@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<!-- <meta charset="utf-8" /> <!-- Aquí da problemas pero en los datos de contacto no -->
+		<meta name="author" content="Arturo Baz">
 		<title> Página Web del Curso de Verano HTML5 </title>
 		<link rel="stylesheet" href="css/estilos.css">
 		<script src="javascript/codigo.js"></script>
+		
 	</head>
 	
-	<body>
+	<body id="Inicio">
 	
 	    <h1> Restaurante Casa Adela </h1>
 						
@@ -35,7 +39,7 @@
 			</div>
 				
 			<div id="saludo">
-				<br><p>En nuestros comedores encontrará el lugar perfecto para sus reuniones de trabajo, 
+				<br><p> En nuestros comedores encontrará el lugar perfecto para sus reuniones de trabajo, 
 						eventos familiares o un pequeño rincón donde disfrutar de una variada y exquisita oferta gastronómica, 
 						donde está representada la cocina tradicional asturiana, nuestros postres caseros y una bodega perfectamente seleccionada."
 					</p>
@@ -55,9 +59,44 @@
 				<label>Nombre: <input name=cliente placeholder="Tu Nombre" required></label><br>
 				<label>Correo Electrónico: <input type=email name=correo placeholder="correo@propio.es"></label><br>
 				<label>Teléfono de Contacto: <input type=tel name=telf placeholder="6******** ó 9********" required></label><br>
-				<label>Numero de Asistentes: <input type=number name=asistentes min=1 máx=100></label><br>
-				<label>Fecha de Reserva: <input type=date name=fechaReserva required></label><br>			
+				<label>Numero de Asistentes: <input type=number name=asistentes min=1 máx=100 placeholder="1"></label><br>
+				<label>Fecha de Reserva: <input type=date name=fechaReserva placeholder="dd/mm/aaaa" required></label><br>			
 			</form>
+				
+			<!-- Esto es un comentario 
+				<form id="form" method="post" action="">
+				</form><br>
+				
+				temp_form = '<label> Nombre: <input name="client" id="client" placeholder="Escribe aquí"></label><br>
+							<label> Teléfono: <input type=tel name="telf" id="telf" placeholder="Escribe aquí"></label><br>
+							<label> Correo electrónico: <input type=email name="mail" id="mail" placeholder="hola@hola.es"></label><br>
+							<label> Fecha de reserva: <input type=date name="date" id="date" value="{{val}}"></label><br>
+							
+							<button type="submit">Enviar</button><br>';
+							
+							
+				/* Sacar en una alerta los datos del formulario*/
+
+				$("#form").on("submit", sendData);
+
+				function sendData(){ //Simulamos un envío de los datos
+
+				client = $("#client").val();
+				telf = $("#telf").val();
+				mail = $("#mail").val();
+				date = $("#date").val();
+				
+
+				if(client.length == 0 || telf.length == 0 || mail.length == 0 || date.length == 0){
+				alert("Has dejado campos vacíos en el formulario");
+				}
+				else alert("Datos introducidos:"+"\n\nNombre: "+client+"\nTeléfono: "+telf+"\nemail: "+mail+"\nFecha: "+date+"\nHora"+time);
+
+				return false;
+				}
+
+
+			-->
 				
 			<div>				
 				<p class="boton" onclick="pulsado(this)" >Formalizar Reserva</p>
@@ -88,16 +127,40 @@
 		</div>	
 		
 		
-		<!-- Esto es un comentario 
+		<div id="Receta">
+			
+			<h2> Receta Estrella del Mes:</h2>
+			<h3> Fabada Asturiana </h3>
+			
+			<div id="video">
+					<video controls muted preload="metadata" poster="imags/fabada_asturiana.png">
+						<source src="imags/Fabada_Asturiana.mp4" type="video/mp4"/>
+						<!-- <source src="imags/Fabada_Asturiana.flv" type="video/flv"/> -->
+						<source src="imags/Fabada_Asturiana.3gp" type="video/3gp"/>
+						<source src="http://www.youtube.com/watch?v=NBtP9_oHY2o" type="text/html"/>
+						
+						<p>Tu navegador no soporta el vídeo</p>
+					</video>
+			</div>
 		
 			
+		</div>	
+		
+		
+		<a href="#Inicio"><span class="redir">Ir al Inicio</span></a>
+		
+		
+		<!-- Esto es un comentario 
+				<iframe width="560" height="315" src="//www.youtube.com/embed/NBtP9_oHY2o" frameborder="0" allowfullscreen></iframe>
 		-->
 
-		
 		<footer>
 			<div>
 				<p> © 2013 Web AsturJedi, todos los derechos reservados.</p>
 			</div>
+			<address>
+				Contacto Webmaster: <a href="datos_contacto.html"> AsturJedi </a>
+			</address>			
 		</footer>
 		
 	</body>
