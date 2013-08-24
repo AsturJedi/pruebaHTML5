@@ -35,14 +35,14 @@ Se han utilizado diversos tipos de tecnologías, tales como HTML5, CSS, JavaScrip
 	Pero la función ha dado bastantes problemas y no he conseguido que funcione todo así que 
 	lo reduje a la mínima expresión a pesar de intentar buscando por internet arreglarlo.
 
-En Google Chrome, la aplicación funciona correctamente, incluido el vídeo, pero en los otros navegadores da problemas,
-por ejemplo el vídeo no tiene un formato compatible con firefox, los desplegables aparecen desplegados ya en firefox
-y ese tipo de cosas. 
+En Google Chrome, la aplicación funciona correctamente, los desplegables aparecen desplegados ya en firefox
+y en explorer fallan algunas cosas más, pero por lo general funciona bastante bien todo. 
 
 
 Algunos problemas encontrados: 
  
 - No entiendo por qué me da problemas el añadir el charset cuando en el archivo de los microdatos hace que 
-funcione el texto bien en lugar de salir mal los acentos. Aquí añadir el charset hace que salgan mal.
+	funcione el texto bien en lugar de salir mal los acentos. Aquí añadir el charset hace que salgan mal.
 
-- El video a pesar de tenerlo en 3 formatos no funciona nada más que en google Chrome.
+- La función para rellenar el mensaje de javascript no consigo que haga lo que pretendo, miré por internet ejemplos
+	pero no lo he logrado.
