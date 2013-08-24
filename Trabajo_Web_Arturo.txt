@@ -24,6 +24,7 @@ Se han utilizado diversos tipos de tecnologías, tales como HTML5, CSS, JavaScrip
 * Los microdatos (datos_contacto.hmtl) se hicieron sobre un archivo .html, para dejar los datos personales por si 
 	hacía falta para el curso. Para acceder a ellos hay un enlace en el footer de la página principal
 	que nos lleva a la página con los datos y desde la cual se puede volver a la principal.
+	También se añaden algunos datos, como el nombre del autor y un icono para algunos navegadores.
 
 * En CSS (css/estilos.css) es un archivo donde se da estilo a la página: letras, efectos al pasar el ratón, 
 	tipo de fuente (familia), margenes, recuadros, colores, sombras, etc. También se colocan y 

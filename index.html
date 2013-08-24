@@ -56,16 +56,16 @@
 			
 			<h2>Seleccionar Reserva:</h2>
 			
-			<form method="post"	 id="resv"	action="">
-				<label>Nombre: <input name=cliente placeholder="Tu Nombre" required></label><br>
-				<label>Correo Electrónico: <input type=email name=correo placeholder="correo@propio.es"></label><br>
-				<label>Teléfono de Contacto: <input type=tel name=telf placeholder="6******** ó 9********" required></label><br>
-				<label>Numero de Asistentes: <input type=number name=asistentes min=1 máx=100 placeholder="1"></label><br>
-				<label>Fecha de Reserva: <input type=date name=fechaReserva placeholder="dd/mm/aaaa" required></label><br>			
+			<form method="post"	 id="resv"	action="index.html">
+				<label>Nombre: <input name=cliente placeholder="Tu Nombre" autocomplete="off" required></label><br>
+				<label>Correo Electrónico: <input type=email name=correo placeholder="correo@propio.es" autocomplete="off"></label><br>
+				<label>Teléfono de Contacto: <input type=tel name=telf placeholder="6******** ó 9********" pattern="\d{9}" autocomplete="off" required></label><br>
+				<label>Numero de Asistentes: <input type=number name=asistentes min=1 máx=100 placeholder="1" autocomplete="off"></label><br>
+				<label>Fecha de Reserva: <input type=date name=fechaReserva placeholder="dd/mm/aaaa" autocomplete="off" required></label><br>	
+				<label>Preferencia de Comedor: <input type=range name=prefer min=1 max=3></label><br>	
 			</form>
 				
-			
-				
+							
 			<div>				
 				<p class="boton" onclick="pulsado(this)" >Formalizar Reserva</p>
 			</div>			
@@ -125,7 +125,7 @@
 						<!-- <source src="imags/Fabada_Asturiana.flv" type="video/flv"/> -->
 						<source src="imags/Fabada_Asturiana.3gp" type="video/3gp"/>
 						<!--
-						<source src="http://www.youtube.com/watch?v=NBtP9_oHY2o" target="_blank"/>
+						<source src="http://www.youtube.com/watch?v=NBtP9_oHY2o" target="_blank"/> 
 						<a href="http://www.youtube.com/watch?v=NBtP9_oHY2o" target="_blank" /></a>
 						-->
 						<p>Tu navegador no soporta el vídeo</p>
