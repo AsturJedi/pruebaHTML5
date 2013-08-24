@@ -115,6 +115,9 @@ h1{
 	margin-bottom: 20px;
 }
 
+#Receta h3{
+	text-decoration: underline;
+}
 
 a.sub{
 	text-decoration: underline;	

@@ -35,7 +35,8 @@ Se han utilizado diversos tipos de tecnologías, tales como HTML5, CSS, JavaScrip
 	lo reduje a la mínima expresión a pesar de intentar buscando por internet arreglarlo.
 
 En Google Chrome, la aplicación funciona correctamente, incluido el vídeo, pero en los otros navegadores da problemas,
-por ejemplo el vídeo no tiene un formato compatible con firefox. 
+por ejemplo el vídeo no tiene un formato compatible con firefox, los desplegables aparecen desplegados ya en firefox
+y ese tipo de cosas. 
 
 
 Algunos problemas encontrados: 
