@@ -1,24 +1,46 @@
 Documentación del Trabajo para el curso de web HTML5.
 
-La página es sobre un restaurante (familiar) aunque la página no es la auténtica.
-Tiene una sección de muestra de los comedores, otra sección para hacer una reserva mediante un formulario.
-También se ha añadido una sección de contacto con las vías para comunicarse con el restaurante y 
-un recetario con la más típica de las recetas asturianas.
+
+Se ha realizado una sencilla página es sobre un restaurante (familiar),
+	aunque la página no es la auténtica el restaurante si lo es.
 
 Se han utilizado diversos tipos de tecnologías, tales como HTML5, CSS, JavaScript y microdatos.
 
-El HTML5 (index.html) ha sido usado para definir la página y los contenidos. No entiendo por qué me da problemas el añadir el charset
-cuando en el archivo de los microdatos hace que funcione el texto bien en lugar de salir mal los acentos. Aquí añadir el charset hace que salgan mal.
+* El HTML5 (index.html) ha sido usado para definir la página y los contenidos. 
+	- Tiene una sección de muestra de los comedores, con varios diferentes cada uno con una
+		foto asociada y enmarcada en un cuadro con descripción por si no cargase la foto.
+		Además de un texto explicativo y una bienvenida que es interactiva, se amplia al pulsar.
+	- Otra sección para hacer una reserva mediante un formulario, en el que se ha puesto 
+		pre-relleno de cara a que el usuario sepa lo que debe poner y un botón para enviar
+		que mediante una función javascript devuelve un mensaje.
+	- También se ha añadido una sección de contacto con las vías para comunicarse con el 
+		restaurante, correo electrónico de manera que al pulsar se puede enviar, 
+		un teléfono, un enlace con goolge maps (no me gustaba incluir el minimapa directamente,
+		y mediante un desplegable la dirección postal (ya que no todo el mundo quiere verla).
+	- Un recetario con la más típica de las recetas asturianas mediante un vídeo incrustado.
+	- En el contexto general se ha puesto un enlace para volver al inicio de la página, 
+		como se haría con un menú. Y un pié de página con enlace a los datos del webmaster.
 
-Los microdatos (datos_contacto.hmtl) se hicieron sobre un archivo .html, para dejar los datos personales por si hacía falta para el curso. 
+* Los microdatos (datos_contacto.hmtl) se hicieron sobre un archivo .html, para dejar los datos personales por si 
+	hacía falta para el curso. Para acceder a ellos hay un enlace en el footer de la página principal
+	que nos lleva a la página con los datos y desde la cual se puede volver a la principal.
 
-En CSS (css/estilos.css) es un archivo donde se da estilo a la página: letras, efectos al pasar el ratón, tipo de fuente (familia), margenes, 
-recuadros, colores, sombras, etc. También se colocan y se les da un tamaño y márgenes a las fotos y el texto.
+* En CSS (css/estilos.css) es un archivo donde se da estilo a la página: letras, efectos al pasar el ratón, 
+	tipo de fuente (familia), margenes, recuadros, colores, sombras, etc. También se colocan y 
+	se les da un tamaño y márgenes a las fotos y el texto.
 
-La parte de JavaScript (javascript/codigo.js) se han implementado algunas funciones, un saludo que se amplia al pulsar en la página principal
-y un aviso al pulsar el botón del formulario de reserva. Pero la función ha dado bastantes problemas y no he conseguido que funcione todo así que 
-lo reduje a la mínima expresión a pesar de intentar buscando por internet arreglarlo.
+* La parte de JavaScript (javascript/codigo.js) se han implementado algunas funciones, un saludo que se amplia 
+	al pulsar en la página principal y un aviso al pulsar el botón del formulario de reserva. 
+	Pero la función ha dado bastantes problemas y no he conseguido que funcione todo así que 
+	lo reduje a la mínima expresión a pesar de intentar buscando por internet arreglarlo.
 
 En Google Chrome, la aplicación funciona correctamente, incluido el vídeo, pero en los otros navegadores da problemas,
 por ejemplo el vídeo no tiene un formato compatible con firefox. 
+
+
+Algunos problemas encontrados: 
  
+- No entiendo por qué me da problemas el añadir el charset cuando en el archivo de los microdatos hace que 
+funcione el texto bien en lugar de salir mal los acentos. Aquí añadir el charset hace que salgan mal.
+
+- El video a pesar de tenerlo en 3 formatos no funciona nada más que en google Chrome.
