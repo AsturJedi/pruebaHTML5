@@ -1,2 +1,24 @@
-Documentación del Trabajo para el curso de web HTML5
+Documentación del Trabajo para el curso de web HTML5.
 
+La página es sobre un restaurante (familiar) aunque la página no es la auténtica.
+Tiene una sección de muestra de los comedores, otra sección para hacer una reserva mediante un formulario.
+También se ha añadido una sección de contacto con las vías para comunicarse con el restaurante y 
+un recetario con la más típica de las recetas asturianas.
+
+Se han utilizado diversos tipos de tecnologías, tales como HTML5, CSS, JavaScript y microdatos.
+
+El HTML5 (index.html) ha sido usado para definir la página y los contenidos. No entiendo por qué me da problemas el añadir el charset
+cuando en el archivo de los microdatos hace que funcione el texto bien en lugar de salir mal los acentos. Aquí añadir el charset hace que salgan mal.
+
+Los microdatos (datos_contacto.hmtl) se hicieron sobre un archivo .html, para dejar los datos personales por si hacía falta para el curso. 
+
+En CSS (css/estilos.css) es un archivo donde se da estilo a la página: letras, efectos al pasar el ratón, tipo de fuente (familia), margenes, 
+recuadros, colores, sombras, etc. También se colocan y se les da un tamaño y márgenes a las fotos y el texto.
+
+La parte de JavaScript (javascript/codigo.js) se han implementado algunas funciones, un saludo que se amplia al pulsar en la página principal
+y un aviso al pulsar el botón del formulario de reserva. Pero la función ha dado bastantes problemas y no he conseguido que funcione todo así que 
+lo reduje a la mínima expresión a pesar de intentar buscando por internet arreglarlo.
+
+En Google Chrome, la aplicación funciona correctamente, incluido el vídeo, pero en los otros navegadores da problemas,
+por ejemplo el vídeo no tiene un formato compatible con firefox. 
+ 
